@@ -4,37 +4,28 @@ class PersonajeJuegoV5:
         self.vida = vida
         self.inventario = []
         self.activo = True
-        
+
     def evaluar_condicion(self, limite: float, factor: float) -> float:
         if self.vida >= limite and self.activo == True:
-            self.vida *= factor
+            return self.vida * factor
         elif self.vida < limite and self.vida > 0:
-            self.vida *= factor
+            return self.vida + 10.0
         else:
-            self.vida = 0
+            return 0.0
+
+    def procesar_registros(self, datos: list) -> float:
+        for valor in datos:
+            if valor is None:
+                continue
+            self.vida += valor
+            self.inventario.append(valor)
+            if self.vida > 500.0:
+                self.activo = False
         return self.vida
-        
-    
-    
-    
-def procesar_registros(self, datos: list) -> float:
-    for registro in datos:
-        nombre, vida, inventario, activo = registro
-        personaje = PersonajeJuegoV5(nombre, vida, inventario, activo)
-        resultado = personaje.evaluar_condicion(50.0, 1.5)
-    if self.vida > 500.0:
-        self.activo = False
-    return self.vida 
-        
 
-    
-def acumular_hasta_objetivo(self, objetivo: float, paso: float) -> int:
-    acumulado = 0.0
-    while self.vida < objetivo:
-        acumulado += paso
-        self.vida += paso
-    return self.paso
-    
-
-    
-        
+    def acumular_hasta_objetivo(self, objetivo: float, paso: float) -> int:
+        contador = 0
+        while self.vida < objetivo:
+            self.vida += paso
+            contador += 1
+        return contador
