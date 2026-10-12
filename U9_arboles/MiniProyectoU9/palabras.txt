@@ -1,0 +1,51 @@
+palabra|definición
+algoritmo|Conjunto ordenado de pasos para resolver un problema.
+analisis|Proceso de estudiar información para comprenderla.
+aplicacion|Programa diseñado para realizar una tarea específica.
+arbol|Estructura de datos jerárquica formada por nodos.
+archivo|Conjunto de datos guardados con un nombre.
+base de datos|Conjunto organizado de información relacionada.
+bucle|Estructura que repite instrucciones mientras se cumpla una condición.
+busqueda|Proceso de localizar un dato dentro de una estructura.
+cadena|Secuencia de caracteres o texto.
+clase|Plantilla utilizada para crear objetos en programación orientada a objetos.
+codigo|Conjunto de instrucciones escritas en un lenguaje de programación.
+cola|Estructura FIFO donde el primero en entrar es el primero en salir.
+compilador|Programa que traduce código fuente a otro formato ejecutable.
+computadora|Máquina capaz de procesar información mediante instrucciones.
+condicional|Estructura que toma decisiones según una condición.
+dato|Unidad de información que puede almacenarse y procesarse.
+depuracion|Proceso de encontrar y corregir errores en un programa.
+diccionario|Estructura que relaciona claves con valores.
+elemento|Cada valor almacenado dentro de una estructura de datos.
+encapsulamiento|Principio que protege y agrupa datos con sus métodos.
+estructura|Forma organizada de almacenar y manipular datos.
+funcion|Bloque de código reutilizable que realiza una tarea.
+herencia|Mecanismo que permite crear una clase basada en otra.
+indice|Posición de un elemento dentro de una colección.
+instancia|Objeto creado a partir de una clase.
+iteracion|Cada repetición de un ciclo.
+lista|Colección ordenada y modificable de elementos.
+logica|Conjunto de reglas usadas para razonar o resolver problemas.
+metodo|Función definida dentro de una clase.
+modulo|Archivo de Python que contiene código reutilizable.
+nodo|Elemento de una estructura enlazada o de árbol.
+objeto|Instancia creada a partir de una clase.
+operador|Símbolo que permite realizar operaciones entre valores.
+parametro|Variable definida en una función para recibir datos.
+pila|Estructura LIFO donde el último en entrar es el primero en salir.
+polimorfismo|Capacidad de usar una misma operación de diferentes maneras.
+programa|Conjunto de instrucciones que realiza una tarea.
+python|Lenguaje de programación de alto nivel.
+recursion|Técnica donde una función se llama a sí misma.
+registro|Conjunto de datos relacionados sobre una entidad.
+sistema|Conjunto de elementos que trabajan de manera organizada.
+software|Programas y aplicaciones que utiliza una computadora.
+subarbol|Nodo de un árbol junto con todos sus descendientes.
+variable|Espacio con nombre que almacena un valor.
+vector|Colección de elementos almacenados en posiciones consecutivas.
+version|Estado identificado de un programa o archivo.
+web|Sistema de documentos y recursos accesibles por internet.
+while|Ciclo que se ejecuta mientras una condición sea verdadera.
+autocompletar|Función que sugiere palabras mientras el usuario escribe.
+usuario|Persona que utiliza un sistema o aplicación.
